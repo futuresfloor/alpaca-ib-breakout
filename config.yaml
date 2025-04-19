@@ -1,0 +1,7 @@
+alpaca:
+  api_key: "PK9QO7R6W926R00CZZNB"
+  secret_key: "87kKTQzi5eBsbd0Jsst4SAVdr9frW81edBq4cGhe"
+
+settings:
+  base_url: "https://paper-api.alpaca.markets"
+  environment: "paper"
