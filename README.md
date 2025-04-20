@@ -4,6 +4,9 @@ This project implements a time-based breakout strategy using 5-minute intraday b
 
 > This project is being developed as part of my application to Alpaca. The logic is fully portable to Alpaca’s bar format, and integration is already underway. The breakout engine is modular, scalable, and easily integrated into a live Alpaca account for further development or execution.
 
+ ⚠️ **Note:** All trading logic and integration was built using Alpaca’s **Paper API** and simulated live structure.  
+> Due to current regional restrictions (**Canada**), live account functionality could not be verified.
+
 ---
 
 ## 🚀 Features
