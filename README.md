@@ -17,8 +17,27 @@ This project implements a time-based breakout strategy using 5-minute intraday b
 
 ## 📁 Project Structure
 
-alpaca/ ├── ib_breakout_yahoo.py # Working breakout prototype using yfinance ├── check_balance.py # Connects to Alpaca API and prints account status ├── check_feed.py # Tests market data feed functionality ├── config.yaml # Placeholder for API keys (used with check_balance.py) ├── requirements.txt # All dependencies for this project └── README.md # Project overview and usage instructions
+```
+alpaca/
+├── ib_breakout_yahoo.py       # Working breakout prototype using yfinance
+├── alpaca_check_balance.py    # Connects to Alpaca API and prints account status
+├── check_feed.py              # Tests market data feed functionality
+├── config_sample.yaml         # Safe example config file for API keys
+├── requirements.txt           # All dependencies for this project
+└── README.md                  # Project overview and usage instructions
+```
 
+---
+
+## 🔐 API Credentials Setup
+
+To run this project:
+
+1. Copy the file named `config_sample.yaml`
+2. Rename it to `config.yaml`
+3. Paste in your actual Alpaca API Key ID and Secret Key
+
+This file is used by scripts like `alpaca_check_balance.py` and should not be committed to version control.
 
 ---
 
