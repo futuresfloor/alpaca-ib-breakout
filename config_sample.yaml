@@ -1,0 +1,7 @@
+alpaca:
+  api_key: "YOUR_API_KEY_HERE"
+  secret_key: "YOUR_SECRET_KEY_HERE"
+
+settings:
+  base_url: "https://paper-api.alpaca.markets"
+  environment: "paper"
